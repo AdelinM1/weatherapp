@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Weather Dashboard</h1>
+        <form id="cityForm" class="mb-3">
+            <div class="input-group">
+                <input type="text" id="cityInput" class="form-control" placeholder="Enter city" required>
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </div>
+            </div>
+        </form>
+        <div id="currentWeather" class="mb-4"></div>
+        <div id="forecast"></div>
+    </div>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
